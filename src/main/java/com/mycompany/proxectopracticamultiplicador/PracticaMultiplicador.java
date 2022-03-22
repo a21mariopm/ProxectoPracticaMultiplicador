@@ -10,7 +10,12 @@ import java.util.Scanner;
  */
 public class PracticaMultiplicador 
 {
- public static void main(String[] args)
+
+    /**
+     * Calcular resultado de multiplicacion de dos numeros
+     * @param args
+     */
+    public static void main(String[] args)
  {
  // declara datos
  double num1; 
@@ -34,6 +39,12 @@ public class PracticaMultiplicador
  System.out.println( produto );
  }
 
+    /**
+     * Calcula producto de dos nunmeros
+     * @param num2
+     * @param num1
+     * @return el resultado de la multiplicacion
+     */
     public static double calcularproduto(double num2, double num1) {
         double produto;
         produto = num2 * num1;
