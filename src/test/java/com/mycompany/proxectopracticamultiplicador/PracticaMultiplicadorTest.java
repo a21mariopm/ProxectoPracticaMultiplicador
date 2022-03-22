@@ -15,7 +15,8 @@ import org.junit.jupiter.api.Disabled;
 public class PracticaMultiplicadorTest {
     
     /**
-     *
+     * Calcula resultado de multiplicar dos numeros
+     * Prueba
      */
     public PracticaMultiplicadorTest() {
     }
