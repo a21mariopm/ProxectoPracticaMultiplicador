@@ -45,5 +45,17 @@ public class PracticaMultiplicadorTest {
         assertEquals(expResult, result, 0.0);
 
     }
+
+    /**
+     * Test of muestraResultado method, of class PracticaMultiplicador.
+     */
+    @Test
+    public void testMuestraResultado() {
+        System.out.println("muestraResultado");
+        double num1 = 5.0;
+        double num2 = 4.0;
+        double produto = 20.0;
+        PracticaMultiplicador.muestraResultado(num1, num2, produto);
+    }
     
 }
