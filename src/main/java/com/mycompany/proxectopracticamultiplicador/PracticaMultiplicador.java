@@ -18,6 +18,7 @@ public class PracticaMultiplicador
     public static void main(String[] args)
  {
  // declara datos
+     num1 numero 1
  double num1; 
  double num2; 
  double produto;
@@ -39,9 +40,9 @@ muestraResultado(num1, num2, produto);
 
     /**
      * Muestra resultados
-     * @param num1
-     * @param num2
-     * @param produto
+     * @param num1 primer numero
+     * @param num2 segundo numero
+     * @param produto resultado del producto
      */
     public static void muestraResultado(double num1, double num2, double produto) {
 
