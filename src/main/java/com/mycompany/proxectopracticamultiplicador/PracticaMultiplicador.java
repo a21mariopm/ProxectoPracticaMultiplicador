@@ -32,12 +32,23 @@ public class PracticaMultiplicador
  
  // calcula resultado
  produto = calcularproduto(num2, num1);
- 
- // mostra resultados
- System.out.print( num1 + " * " );
- System.out.print( num2 + " = " );
- System.out.println( produto );
+    
+// mostra resultados
+muestraResultado(num1, num2, produto);
  }
+
+    /**
+     * Muestra resultados
+     * @param num1
+     * @param num2
+     * @param produto
+     */
+    public static void muestraResultado(double num1, double num2, double produto) {
+
+    System.out.print( num1 + " * " );
+    System.out.print( num2 + " = " );
+    System.out.println( produto );
+    }
 
     /**
      * Calcula producto de dos nunmeros
